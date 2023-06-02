@@ -1287,6 +1287,16 @@
         <NamedIndividual IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#germany"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#germanytrip"/>
+        <NamedIndividual IRI="#S12"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#germanytrip"/>
+        <NamedIndividual IRI="#S13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasTrajectorytype"/>
         <NamedIndividual IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#germanytrip"/>
         <NamedIndividual IRI="#spatio-temporal"/>
@@ -1332,6 +1342,11 @@
         <NamedIndividual IRI="#Belgium"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="#Belgiumtrip"/>
+        <NamedIndividual IRI="#S7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasTrajectorytype"/>
         <NamedIndividual IRI="#Belgiumtrip"/>
         <NamedIndividual IRI="#spatio-temporal"/>
@@ -1360,6 +1375,16 @@
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasRegionOfInterest"/>
         <NamedIndividual IRI="#Canadatrip"/>
         <NamedIndividual IRI="#canada"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="#Canadatrip"/>
+        <NamedIndividual IRI="#S8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="#Canadatrip"/>
+        <NamedIndividual IRI="#S9"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasTrajectorytype"/>
@@ -1400,6 +1425,16 @@
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasRegionOfInterest"/>
         <NamedIndividual IRI="#Francetrip"/>
         <NamedIndividual IRI="#France"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="#Francetrip"/>
+        <NamedIndividual IRI="#S10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="#Francetrip"/>
+        <NamedIndividual IRI="#S11"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasTrajectorytype"/>
@@ -1667,6 +1702,36 @@
         <NamedIndividual IRI="#africa"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="#africatrip"/>
+        <NamedIndividual IRI="#S1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="#africatrip"/>
+        <NamedIndividual IRI="#S2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="#africatrip"/>
+        <NamedIndividual IRI="#S3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="#africatrip"/>
+        <NamedIndividual IRI="#S4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="#africatrip"/>
+        <NamedIndividual IRI="#S5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="#africatrip"/>
+        <NamedIndividual IRI="#S6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasTrajectorytype"/>
         <NamedIndividual IRI="#africatrip"/>
         <NamedIndividual IRI="#spatio-temporal"/>
@@ -1742,6 +1807,16 @@
         <NamedIndividual IRI="#italy"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="#italytrip"/>
+        <NamedIndividual IRI="#S14"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="#italytrip"/>
+        <NamedIndividual IRI="#S15"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasTrajectorytype"/>
         <NamedIndividual IRI="#italytrip"/>
         <NamedIndividual IRI="#spatio-temporal"/>
@@ -1782,6 +1857,16 @@
         <NamedIndividual IRI="#korea"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="#koreatrip"/>
+        <NamedIndividual IRI="#S16"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="#koreatrip"/>
+        <NamedIndividual IRI="#S17"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasTrajectorytype"/>
         <NamedIndividual IRI="#koreatrip"/>
         <NamedIndividual IRI="#spatio-temporal"/>
@@ -1820,6 +1905,16 @@
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasRegionOfInterest"/>
         <NamedIndividual IRI="#londontrip"/>
         <NamedIndividual IRI="#london"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="#londontrip"/>
+        <NamedIndividual IRI="#S18"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="#londontrip"/>
+        <NamedIndividual IRI="#S19"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasTrajectorytype"/>
@@ -1985,6 +2080,16 @@
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasRegionOfInterest"/>
         <NamedIndividual IRI="#unitedstatestrip"/>
         <NamedIndividual IRI="#unitedstates"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="#unitedstatestrip"/>
+        <NamedIndividual IRI="#S20"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest"/>
+        <NamedIndividual IRI="#unitedstatestrip"/>
+        <NamedIndividual IRI="#S21"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasTrajectorytype"/>
