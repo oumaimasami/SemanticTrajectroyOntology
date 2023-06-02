@@ -1,19 +1,17 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#"
-     xml:base="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History"
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:History="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#"
-     xmlns:trajectory="http://www.semanticweb.org/user/ontologies/2023/2/trajectory#"
-     xmlns:trajectory1="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#"
-     xmlns:trajectory2="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory.owl#">
-    <owl:Ontology rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History">
-        <owl:versionIRI rdf:resource="http://www.semanticweb.org/user/ontologies/2023/2/trajectorym"/>
+     xmlns:trajectory="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#"
+     xmlns:trajectory1="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#">
+    <Ontology rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory">
+        <versionIRI rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory.owl"/>
         <rdfs:comment>this is an ontology about a generic semantic trajectory data modeling based on ontlogies.</rdfs:comment>
-    </owl:Ontology>
+    </Ontology>
     
 
 
@@ -30,73 +28,73 @@
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType">
+    <ObjectProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType">
         <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
         <rdfs:range rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movementTypeOntology"/>
-    </owl:ObjectProperty>
+    </ObjectProperty>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasPointOfInterest -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasPointOfInterest">
+    <ObjectProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasPointOfInterest">
         <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
         <rdfs:range rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
-    </owl:ObjectProperty>
+    </ObjectProperty>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasRegionOfInterest -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasRegionOfInterest">
+    <ObjectProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasRegionOfInterest">
         <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
         <rdfs:range rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#regionOfInterest"/>
-    </owl:ObjectProperty>
+    </ObjectProperty>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest">
+    <ObjectProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasSegmentOfInterest">
         <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
         <rdfs:range rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#segmentOfInterest"/>
-    </owl:ObjectProperty>
+    </ObjectProperty>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasTrajectory -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasTrajectory">
+    <ObjectProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasTrajectory">
         <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#MovingObject"/>
         <rdfs:range rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
-    </owl:ObjectProperty>
+    </ObjectProperty>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasTrajectorytype -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasTrajectorytype">
+    <ObjectProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasTrajectorytype">
         <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
         <rdfs:range rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectoryTypeOntology"/>
-    </owl:ObjectProperty>
+    </ObjectProperty>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasbehavior -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasbehavior">
+    <ObjectProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasbehavior">
         <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingRegion"/>
         <rdfs:range rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingRegionBehaviorOntology"/>
-    </owl:ObjectProperty>
+    </ObjectProperty>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#hasTrajectorySection -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#hasTrajectorySection -->
 
-    <owl:ObjectProperty rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#hasTrajectorySection">
+    <ObjectProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#hasTrajectorySection">
         <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
         <rdfs:range rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySection"/>
-    </owl:ObjectProperty>
+    </ObjectProperty>
     
 
 
@@ -113,82 +111,82 @@
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointID -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointID">
+    <DatatypeProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointID">
         <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-    </owl:DatatypeProperty>
+    </DatatypeProperty>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#RegionID -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#RegionID">
+    <DatatypeProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#RegionID">
         <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#regionOfInterest"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-    </owl:DatatypeProperty>
+    </DatatypeProperty>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#SegmantID -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#SegmantID">
+    <DatatypeProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#SegmantID">
         <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-    </owl:DatatypeProperty>
+    </DatatypeProperty>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectoryID -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectoryID">
+    <DatatypeProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectoryID">
         <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-    </owl:DatatypeProperty>
+    </DatatypeProperty>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySectionID -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySectionID">
+    <DatatypeProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySectionID">
         <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySection"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-    </owl:DatatypeProperty>
+    </DatatypeProperty>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#MovementTypeDescription -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#MovementTypeDescription -->
 
-    <owl:DatatypeProperty rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#MovementTypeDescription">
+    <DatatypeProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#MovementTypeDescription">
         <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movementTypeOntology"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
+    </DatatypeProperty>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#MovingObjectID -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#MovingObjectID -->
 
-    <owl:DatatypeProperty rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#MovingObjectID">
+    <DatatypeProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#MovingObjectID">
         <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#MovingObject"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-    </owl:DatatypeProperty>
+    </DatatypeProperty>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#MovingObjectName -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#MovingObjectName -->
 
-    <owl:DatatypeProperty rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#MovingObjectName">
+    <DatatypeProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#MovingObjectName">
         <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#MovingObject"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
+    </DatatypeProperty>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#trajectoryTypeDescription -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#trajectoryTypeDescription -->
 
-    <owl:DatatypeProperty rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#trajectoryTypeDescription">
+    <DatatypeProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#trajectoryTypeDescription">
         <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectoryTypeOntology"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
+    </DatatypeProperty>
     
 
 
@@ -205,319 +203,319 @@
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#ConstrainedMovement -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#ConstrainedMovement">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#ConstrainedMovement">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movementTypeOntology"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#MovingObject -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#MovingObject">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#MovingObject">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingObjectOntology"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#NetworkConstrainedMovement -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#NetworkConstrainedMovement">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#NetworkConstrainedMovement">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movementTypeOntology"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#geographicDomainOntology"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#Tsunami -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#Tsunami">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#Tsunami">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#natural-disaster"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#UnconstrainedMovement -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#UnconstrainedMovement">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#UnconstrainedMovement">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movementTypeOntology"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#air-pollution -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#air-pollution">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#air-pollution">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#enviromental-phenomena"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#alzheimer -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#alzheimer">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#alzheimer">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#disease"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#animal-swarming -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#animal-swarming">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#animal-swarming">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingRegion"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#behavior -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#behavior">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#behavior">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingRegionBehaviorOntology"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#cancer -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#cancer">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#cancer">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#disease"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#clouds -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#clouds">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#clouds">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#enviromental-phenomena"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#disease -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#disease">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#disease">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingRegion"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#enviromental-phenomena -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#enviromental-phenomena">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#enviromental-phenomena">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingRegion"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#expanding -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#expanding">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#expanding">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#behavior"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#flooding -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#flooding">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#flooding">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#natural-disaster"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#geographicDomainOntology -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#geographicDomainOntology"/>
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#geographicDomainOntology"/>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hurricane -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hurricane">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hurricane">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#natural-disaster"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#merging -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#merging">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#merging">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#behavior"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#metaphorical -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#metaphorical">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#metaphorical">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectoryTypeOntology"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#migrating-fish -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#migrating-fish">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#migrating-fish">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#animal-swarming"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#migratingBirds -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#migratingBirds">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#migratingBirds">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#animal-swarming"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movementTypeOntology -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movementTypeOntology"/>
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movementTypeOntology"/>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#moves -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#moves">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#moves">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingObjectOntology -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingObjectOntology">
-        <owl:disjointWith rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
-    </owl:Class>
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingObjectOntology">
+        <disjointWith rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingPoint -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingPoint">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingPoint">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#MovingObject"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingRegion -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingRegion">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingRegion">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#MovingObject"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingRegionBehaviorOntology -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingRegionBehaviorOntology"/>
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingRegionBehaviorOntology"/>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#natural-disaster -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#natural-disaster">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#natural-disaster">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingRegion"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#naïveGeographical -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#naïveGeographical">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#naïveGeographical">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectoryTypeOntology"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#oil-pollution -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#oil-pollution">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#oil-pollution">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#enviromental-phenomena"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#overlapping -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#overlapping">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#overlapping">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#behavior"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#regionOfInterest -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#regionOfInterest">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#regionOfInterest">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#geographicDomainOntology"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#segmentOfInterest -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#segmentOfInterest">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#segmentOfInterest">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#geographicDomainOntology"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#shrinking -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#shrinking">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#shrinking">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#behavior"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#spatioTemporal -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#spatioTemporal">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#spatioTemporal">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectoryTypeOntology"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#splitting -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#splitting">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#splitting">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#behavior"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySection -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySection">
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySection">
         <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
-    </owl:Class>
+    </Class>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectoryTypeOntology -->
 
-    <owl:Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectoryTypeOntology"/>
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectoryTypeOntology"/>
     
 
 
@@ -534,768 +532,768 @@
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#Mawell_Resort -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#Mawell_Resort">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#Mawell_Resort">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">02</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">02</trajectory:PointID>
+    </NamedIndividual>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#damp -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#damp">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#damp">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">01</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">01</trajectory:PointID>
+    </NamedIndividual>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#germany -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#germany">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#germany">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#regionOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySection"/>
-        <trajectory1:RegionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">001</trajectory1:RegionID>
-        <trajectory1:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</trajectory1:trajectorySectionID>
-    </owl:NamedIndividual>
+        <trajectory:RegionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">001</trajectory:RegionID>
+        <trajectory:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</trajectory:trajectorySectionID>
+    </NamedIndividual>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#germanytrip -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#germanytrip">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#germanytrip">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
-        <trajectory1:hasMovementType rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Constrained"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#Mawell_Resort"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#damp"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#usedom"/>
-        <trajectory1:hasRegionOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#germany"/>
-        <trajectory1:hasTrajectorytype rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#spatio-temporal"/>
-        <trajectory1:trajectoryID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</trajectory1:trajectoryID>
-        <MovementTypeDescription>guided tours</MovementTypeDescription>
-    </owl:NamedIndividual>
+        <trajectory:hasMovementType rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Constrained"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#Mawell_Resort"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#damp"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#usedom"/>
+        <trajectory:hasRegionOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#germany"/>
+        <trajectory:hasTrajectorytype rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#spatio-temporal"/>
+        <trajectory:trajectoryID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</trajectory:trajectoryID>
+        <trajectory1:MovementTypeDescription>guided tours</trajectory1:MovementTypeDescription>
+    </NamedIndividual>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#tourist1 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#tourist1">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#tourist1">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingPoint"/>
-        <trajectory1:hasTrajectory rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Francetrip"/>
-        <MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</MovingObjectID>
-    </owl:NamedIndividual>
+        <trajectory:hasTrajectory rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Francetrip"/>
+        <trajectory1:MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</trajectory1:MovingObjectID>
+    </NamedIndividual>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#tourist2 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#tourist2">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#tourist2">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingPoint"/>
-        <trajectory1:hasTrajectory rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#germanytrip"/>
-        <MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</MovingObjectID>
-    </owl:NamedIndividual>
+        <trajectory:hasTrajectory rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#germanytrip"/>
+        <trajectory1:MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</trajectory1:MovingObjectID>
+    </NamedIndividual>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#tourist3 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#tourist3">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#tourist3">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingPoint"/>
-        <trajectory1:hasTrajectory rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Belgiumtrip"/>
-        <MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</MovingObjectID>
-    </owl:NamedIndividual>
+        <trajectory:hasTrajectory rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Belgiumtrip"/>
+        <trajectory1:MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</trajectory1:MovingObjectID>
+    </NamedIndividual>
     
 
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#usedom -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#usedom">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#usedom">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">03</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">03</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#AmalfiCoast -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#AmalfiCoast -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#AmalfiCoast">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#AmalfiCoast">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#BanffNationalPark -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#BanffNationalPark -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#BanffNationalPark">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#BanffNationalPark">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Belgium -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Belgium -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Belgium">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Belgium">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#regionOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySection"/>
-        <trajectory1:RegionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">003</trajectory1:RegionID>
-        <trajectory1:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</trajectory1:trajectorySectionID>
-    </owl:NamedIndividual>
+        <trajectory:RegionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">003</trajectory:RegionID>
+        <trajectory:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</trajectory:trajectorySectionID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Belgiumtrip -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Belgiumtrip -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Belgiumtrip">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Belgiumtrip">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
-        <trajectory1:hasMovementType rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Constrained"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Bruges"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Brussels"/>
-        <trajectory1:hasRegionOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Belgium"/>
-        <trajectory1:hasTrajectorytype rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#spatio-temporal"/>
-        <trajectory1:trajectoryID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</trajectory1:trajectoryID>
-        <MovementTypeDescription>guided Tours</MovementTypeDescription>
-    </owl:NamedIndividual>
+        <trajectory:hasMovementType rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Constrained"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Bruges"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Brussels"/>
+        <trajectory:hasRegionOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Belgium"/>
+        <trajectory:hasTrajectorytype rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#spatio-temporal"/>
+        <trajectory:trajectoryID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</trajectory:trajectoryID>
+        <trajectory1:MovementTypeDescription>guided Tours</trajectory1:MovementTypeDescription>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Bruges -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Bruges -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Bruges">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Bruges">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">07</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">07</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Brussels -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Brussels -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Brussels">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Brussels">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">08</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">08</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#BuckinghamPalace -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#BuckinghamPalace -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#BuckinghamPalace">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#BuckinghamPalace">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#California -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#California -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#California">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#California">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySection"/>
-        <trajectory1:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</trajectory1:trajectorySectionID>
-    </owl:NamedIndividual>
+        <trajectory:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</trajectory:trajectorySectionID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Canadatrip -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Canadatrip -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Canadatrip">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Canadatrip">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
-        <trajectory1:hasMovementType rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Unconstrained"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#BanffNationalPark"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#NiagaraFalls"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Vancouver"/>
-        <trajectory1:hasRegionOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#canada"/>
-        <trajectory1:hasTrajectorytype rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#spatio-temporal"/>
-        <MovementTypeDescription>Leisurely exploration</MovementTypeDescription>
-    </owl:NamedIndividual>
+        <trajectory:hasMovementType rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Unconstrained"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#BanffNationalPark"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#NiagaraFalls"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Vancouver"/>
+        <trajectory:hasRegionOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#canada"/>
+        <trajectory:hasTrajectorytype rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#spatio-temporal"/>
+        <trajectory1:MovementTypeDescription>Leisurely exploration</trajectory1:MovementTypeDescription>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#CentralPark -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#CentralPark -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#CentralPark">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#CentralPark">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Constrained -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Constrained -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Constrained">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Constrained">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movementTypeOntology"/>
-    </owl:NamedIndividual>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Florence -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Florence -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Florence">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Florence">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#France -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#France -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#France">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#France">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#regionOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySection"/>
-        <trajectory1:RegionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">002</trajectory1:RegionID>
-        <trajectory1:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</trajectory1:trajectorySectionID>
-    </owl:NamedIndividual>
+        <trajectory:RegionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">002</trajectory:RegionID>
+        <trajectory:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</trajectory:trajectorySectionID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Francetrip -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Francetrip -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Francetrip">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Francetrip">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
-        <trajectory1:hasMovementType rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Unconstrained"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Louvre"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Marseille"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Tour_Eiffel"/>
-        <trajectory1:hasRegionOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#France"/>
-        <trajectory1:hasTrajectorytype rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#spatio-temporal"/>
-        <trajectory1:trajectoryID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</trajectory1:trajectoryID>
-        <MovementTypeDescription>Leisurely exploration</MovementTypeDescription>
-    </owl:NamedIndividual>
+        <trajectory:hasMovementType rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Unconstrained"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Louvre"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Marseille"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Tour_Eiffel"/>
+        <trajectory:hasRegionOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#France"/>
+        <trajectory:hasTrajectorytype rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#spatio-temporal"/>
+        <trajectory:trajectoryID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</trajectory:trajectoryID>
+        <trajectory1:MovementTypeDescription>Leisurely exploration</trajectory1:MovementTypeDescription>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Gyeongju -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Gyeongju -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Gyeongju">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Gyeongju">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#JejuIsland -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#JejuIsland -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#JejuIsland">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#JejuIsland">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#LosAngeles -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#LosAngeles -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#LosAngeles">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#LosAngeles">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Louvre -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Louvre -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Louvre">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Louvre">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">04</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">04</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Marseille -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Marseille -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Marseille">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Marseille">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">05</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">05</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Network-Constrained -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Network-Constrained -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Network-Constrained">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Network-Constrained">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movementTypeOntology"/>
-    </owl:NamedIndividual>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#NiagaraFalls -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#NiagaraFalls -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#NiagaraFalls">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#NiagaraFalls">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Rome -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Rome -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Rome">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Rome">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#TheBritishMuseum -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#TheBritishMuseum -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#TheBritishMuseum">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#TheBritishMuseum">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#TheTowerofLondon -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#TheTowerofLondon -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#TheTowerofLondon">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#TheTowerofLondon">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#TimesSquare -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#TimesSquare -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#TimesSquare">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#TimesSquare">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Tour_Eiffel -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Tour_Eiffel -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Tour_Eiffel">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Tour_Eiffel">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">06</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">06</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Unconstrained -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Unconstrained -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Unconstrained">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Unconstrained">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movementTypeOntology"/>
-    </owl:NamedIndividual>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Vancouver -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Vancouver -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Vancouver">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Vancouver">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#YosemiteNationalPark -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#YosemiteNationalPark -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#YosemiteNationalPark">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#YosemiteNationalPark">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#africa -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#africa -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#africa">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#africa">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#regionOfInterest"/>
-        <trajectory1:RegionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">004</trajectory1:RegionID>
-    </owl:NamedIndividual>
+        <trajectory:RegionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">004</trajectory:RegionID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#africatrip -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#africatrip -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#africatrip">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#africatrip">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
-        <trajectory1:hasMovementType rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Constrained"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#annaba"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#atakor"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#casablanca"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#highatlas"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#marrakesh"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#muséebardo"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#oran"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#palaisjam"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#sidibousaid"/>
-        <trajectory1:hasRegionOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#africa"/>
-        <trajectory1:hasTrajectorytype rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#spatio-temporal"/>
-        <hasTrajectorySection rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#algeria"/>
-        <hasTrajectorySection rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#marroco"/>
-        <hasTrajectorySection rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#tunisia"/>
-        <MovementTypeDescription>guided tours</MovementTypeDescription>
-    </owl:NamedIndividual>
+        <trajectory:hasMovementType rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Constrained"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#annaba"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#atakor"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#casablanca"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#highatlas"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#marrakesh"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#muséebardo"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#oran"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#palaisjam"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#sidibousaid"/>
+        <trajectory:hasRegionOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#africa"/>
+        <trajectory:hasTrajectorytype rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#spatio-temporal"/>
+        <trajectory1:hasTrajectorySection rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#algeria"/>
+        <trajectory1:hasTrajectorySection rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#marroco"/>
+        <trajectory1:hasTrajectorySection rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tunisia"/>
+        <trajectory1:MovementTypeDescription>guided tours</trajectory1:MovementTypeDescription>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#algeria -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#algeria -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#algeria">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#algeria">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySection"/>
-        <trajectory1:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</trajectory1:trajectorySectionID>
-    </owl:NamedIndividual>
+        <trajectory:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</trajectory:trajectorySectionID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#annaba -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#annaba -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#annaba">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#annaba">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">09</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">09</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#atakor -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#atakor -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#atakor">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#atakor">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#canada -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#canada -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#canada">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#canada">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#regionOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySection"/>
-        <trajectory1:RegionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">005</trajectory1:RegionID>
-        <trajectory1:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</trajectory1:trajectorySectionID>
-    </owl:NamedIndividual>
+        <trajectory:RegionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">005</trajectory:RegionID>
+        <trajectory:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</trajectory:trajectorySectionID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#casablanca -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#casablanca -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#casablanca">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#casablanca">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#highatlas -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#highatlas -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#highatlas">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#highatlas">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#italy -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#italy -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#italy">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#italy">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#regionOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySection"/>
-        <trajectory1:RegionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">006</trajectory1:RegionID>
-        <trajectory1:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</trajectory1:trajectorySectionID>
-    </owl:NamedIndividual>
+        <trajectory:RegionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">006</trajectory:RegionID>
+        <trajectory:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</trajectory:trajectorySectionID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#italytrip -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#italytrip -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#italytrip">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#italytrip">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
-        <trajectory1:hasMovementType rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Constrained"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#AmalfiCoast"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Florence"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Rome"/>
-        <trajectory1:hasRegionOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#italy"/>
-        <trajectory1:hasTrajectorytype rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#spatio-temporal"/>
-        <MovementTypeDescription>guided tours</MovementTypeDescription>
-    </owl:NamedIndividual>
+        <trajectory:hasMovementType rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Constrained"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#AmalfiCoast"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Florence"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Rome"/>
+        <trajectory:hasRegionOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#italy"/>
+        <trajectory:hasTrajectorytype rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#spatio-temporal"/>
+        <trajectory1:MovementTypeDescription>guided tours</trajectory1:MovementTypeDescription>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#korea -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#korea -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#korea">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#korea">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#regionOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySection"/>
-        <trajectory1:RegionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">007</trajectory1:RegionID>
-        <trajectory1:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</trajectory1:trajectorySectionID>
-    </owl:NamedIndividual>
+        <trajectory:RegionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">007</trajectory:RegionID>
+        <trajectory:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</trajectory:trajectorySectionID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#koreatrip -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#koreatrip -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#koreatrip">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#koreatrip">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
-        <trajectory1:hasMovementType rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Constrained"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Gyeongju"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#JejuIsland"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#seoul"/>
-        <trajectory1:hasRegionOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#korea"/>
-        <trajectory1:hasTrajectorytype rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#spatio-temporal"/>
-        <MovementTypeDescription>guided tours</MovementTypeDescription>
-    </owl:NamedIndividual>
+        <trajectory:hasMovementType rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Constrained"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Gyeongju"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#JejuIsland"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#seoul"/>
+        <trajectory:hasRegionOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#korea"/>
+        <trajectory:hasTrajectorytype rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#spatio-temporal"/>
+        <trajectory1:MovementTypeDescription>guided tours</trajectory1:MovementTypeDescription>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#london -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#london -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#london">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#london">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#regionOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySection"/>
-        <trajectory1:RegionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">008</trajectory1:RegionID>
-        <trajectory1:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</trajectory1:trajectorySectionID>
-    </owl:NamedIndividual>
+        <trajectory:RegionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">008</trajectory:RegionID>
+        <trajectory:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</trajectory:trajectorySectionID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#londontrip -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#londontrip -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#londontrip">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#londontrip">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
-        <trajectory1:hasMovementType rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Constrained"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#BuckinghamPalace"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#TheBritishMuseum"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#TheTowerofLondon"/>
-        <trajectory1:hasRegionOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#london"/>
-        <trajectory1:hasTrajectorytype rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#spatio-temporal"/>
-        <MovementTypeDescription>guided tours</MovementTypeDescription>
-    </owl:NamedIndividual>
+        <trajectory:hasMovementType rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Constrained"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#BuckinghamPalace"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#TheBritishMuseum"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#TheTowerofLondon"/>
+        <trajectory:hasRegionOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#london"/>
+        <trajectory:hasTrajectorytype rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#spatio-temporal"/>
+        <trajectory1:MovementTypeDescription>guided tours</trajectory1:MovementTypeDescription>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#marrakesh -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#marrakesh -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#marrakesh">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#marrakesh">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#marroco -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#marroco -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#marroco">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#marroco">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySection"/>
-        <trajectory1:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</trajectory1:trajectorySectionID>
-    </owl:NamedIndividual>
+        <trajectory:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</trajectory:trajectorySectionID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#metaphorical -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#metaphorical -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#metaphorical">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#metaphorical">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectoryTypeOntology"/>
-    </owl:NamedIndividual>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#muséebardo -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#muséebardo -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#muséebardo">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#muséebardo">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#naiveGeographical -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#naiveGeographical -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#naiveGeographical">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#naiveGeographical">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectoryTypeOntology"/>
-    </owl:NamedIndividual>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#newYork -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#newYork -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#newYork">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#newYork">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySection"/>
-        <trajectory1:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</trajectory1:trajectorySectionID>
-    </owl:NamedIndividual>
+        <trajectory:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</trajectory:trajectorySectionID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#oran -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#oran -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#oran">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#oran">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#palaisjam -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#palaisjam -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#palaisjam">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#palaisjam">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#seoul -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#seoul -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#seoul">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#seoul">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#sidibousaid -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#sidibousaid -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#sidibousaid">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#sidibousaid">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointOfInterest"/>
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#stops"/>
-        <trajectory1:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</trajectory1:PointID>
-    </owl:NamedIndividual>
+        <trajectory:PointID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</trajectory:PointID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#spatio-temporal -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#spatio-temporal -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#spatio-temporal">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#spatio-temporal">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectoryTypeOntology"/>
-    </owl:NamedIndividual>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#tourist10 -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tourist10 -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#tourist10">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tourist10">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingPoint"/>
-        <trajectory1:hasTrajectory rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#africatrip"/>
-        <MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</MovingObjectID>
-    </owl:NamedIndividual>
+        <trajectory:hasTrajectory rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#africatrip"/>
+        <trajectory1:MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</trajectory1:MovingObjectID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#tourist4 -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tourist4 -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#tourist4">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tourist4">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingPoint"/>
-        <trajectory1:hasTrajectory rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Canadatrip"/>
-        <MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</MovingObjectID>
-    </owl:NamedIndividual>
+        <trajectory:hasTrajectory rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Canadatrip"/>
+        <trajectory1:MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</trajectory1:MovingObjectID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#tourist5 -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tourist5 -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#tourist5">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tourist5">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingPoint"/>
-        <trajectory1:hasTrajectory rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#londontrip"/>
-        <MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</MovingObjectID>
-    </owl:NamedIndividual>
+        <trajectory:hasTrajectory rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#londontrip"/>
+        <trajectory1:MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</trajectory1:MovingObjectID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#tourist6 -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tourist6 -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#tourist6">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tourist6">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingPoint"/>
-        <trajectory1:hasTrajectory rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#unitedstatestrip"/>
-        <MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</MovingObjectID>
-    </owl:NamedIndividual>
+        <trajectory:hasTrajectory rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#unitedstatestrip"/>
+        <trajectory1:MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</trajectory1:MovingObjectID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#tourist7 -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tourist7 -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#tourist7">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tourist7">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingPoint"/>
-        <trajectory1:hasTrajectory rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#koreatrip"/>
-        <MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</MovingObjectID>
-    </owl:NamedIndividual>
+        <trajectory:hasTrajectory rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#koreatrip"/>
+        <trajectory1:MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</trajectory1:MovingObjectID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#tourist8 -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tourist8 -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#tourist8">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tourist8">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingPoint"/>
-        <trajectory1:hasTrajectory rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#italytrip"/>
-        <MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</MovingObjectID>
-    </owl:NamedIndividual>
+        <trajectory:hasTrajectory rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#italytrip"/>
+        <trajectory1:MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</trajectory1:MovingObjectID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#tourist9 -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tourist9 -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#tourist9">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tourist9">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingPoint"/>
-        <trajectory1:hasTrajectory rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#africatrip"/>
-        <MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</MovingObjectID>
-    </owl:NamedIndividual>
+        <trajectory:hasTrajectory rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#africatrip"/>
+        <trajectory1:MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</trajectory1:MovingObjectID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#tunisia -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tunisia -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#tunisia">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tunisia">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySection"/>
-        <trajectory1:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</trajectory1:trajectorySectionID>
-    </owl:NamedIndividual>
+        <trajectory:trajectorySectionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</trajectory:trajectorySectionID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#unitedstates -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#unitedstates -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#unitedstates">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#unitedstates">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#regionOfInterest"/>
-        <trajectory1:RegionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">009</trajectory1:RegionID>
-    </owl:NamedIndividual>
+        <trajectory:RegionID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">009</trajectory:RegionID>
+    </NamedIndividual>
     
 
 
-    <!-- https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#unitedstatestrip -->
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#unitedstatestrip -->
 
-    <owl:NamedIndividual rdf:about="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#unitedstatestrip">
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#unitedstatestrip">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
-        <trajectory1:hasMovementType rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#Constrained"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#CentralPark"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#LosAngeles"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#TimesSquare"/>
-        <trajectory1:hasPointOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#YosemiteNationalPark"/>
-        <trajectory1:hasRegionOfInterest rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#unitedstates"/>
-        <trajectory1:hasTrajectorytype rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#spatio-temporal"/>
-        <hasTrajectorySection rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#California"/>
-        <hasTrajectorySection rdf:resource="https://webprotege.stanford.edu/#projects/cf527eae-0c3b-4297-ada0-399a9b9370ab/edit/History#newYork"/>
-        <MovementTypeDescription>guided tours</MovementTypeDescription>
-    </owl:NamedIndividual>
+        <trajectory:hasMovementType rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Constrained"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#CentralPark"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#LosAngeles"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#TimesSquare"/>
+        <trajectory:hasPointOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#YosemiteNationalPark"/>
+        <trajectory:hasRegionOfInterest rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#unitedstates"/>
+        <trajectory:hasTrajectorytype rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#spatio-temporal"/>
+        <trajectory1:hasTrajectorySection rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#California"/>
+        <trajectory1:hasTrajectorySection rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#newYork"/>
+        <trajectory1:MovementTypeDescription>guided tours</trajectory1:MovementTypeDescription>
+    </NamedIndividual>
     
 
 
