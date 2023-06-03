@@ -183,10 +183,19 @@
         <DataProperty IRI="#MovementTypeDescription"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#MovementTypeName"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#MovingObjectID"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#MovingObjectName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ROIname"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TrajectoryTypeName"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#trajectoryTypeDescription"/>
@@ -2127,6 +2136,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#ROIname"/>
+        <NamedIndividual IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#germany"/>
+        <Literal>germany</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectoryID"/>
         <NamedIndividual IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#germanytrip"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">1</Literal>
@@ -2135,6 +2149,16 @@
         <DataProperty IRI="#MovementTypeDescription"/>
         <NamedIndividual IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#germanytrip"/>
         <Literal>guided tours</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#MovementTypeName"/>
+        <NamedIndividual IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#germanytrip"/>
+        <Literal>Constrained</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TrajectoryTypeName"/>
+        <NamedIndividual IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#germanytrip"/>
+        <Literal>spatio-temporal</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#MovingObjectID"/>
@@ -2177,6 +2201,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#ROIname"/>
+        <NamedIndividual IRI="#Belgium"/>
+        <Literal>belgium</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectoryID"/>
         <NamedIndividual IRI="#Belgiumtrip"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
@@ -2185,6 +2214,16 @@
         <DataProperty IRI="#MovementTypeDescription"/>
         <NamedIndividual IRI="#Belgiumtrip"/>
         <Literal>guided Tours</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#MovementTypeName"/>
+        <NamedIndividual IRI="#Belgiumtrip"/>
+        <Literal>Constrained</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TrajectoryTypeName"/>
+        <NamedIndividual IRI="#Belgiumtrip"/>
+        <Literal>spatio-temporal</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointID"/>
@@ -2212,6 +2251,16 @@
         <Literal>Leisurely exploration</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#MovementTypeName"/>
+        <NamedIndividual IRI="#Canadatrip"/>
+        <Literal>Unconstrained</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TrajectoryTypeName"/>
+        <NamedIndividual IRI="#Canadatrip"/>
+        <Literal>spatio-temporal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointID"/>
         <NamedIndividual IRI="#CentralPark"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">31</Literal>
@@ -2232,6 +2281,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#ROIname"/>
+        <NamedIndividual IRI="#France"/>
+        <Literal>france</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectoryID"/>
         <NamedIndividual IRI="#Francetrip"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
@@ -2240,6 +2294,16 @@
         <DataProperty IRI="#MovementTypeDescription"/>
         <NamedIndividual IRI="#Francetrip"/>
         <Literal>Leisurely exploration</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#MovementTypeName"/>
+        <NamedIndividual IRI="#Francetrip"/>
+        <Literal>Unconstrained</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TrajectoryTypeName"/>
+        <NamedIndividual IRI="#Francetrip"/>
+        <Literal>spatio-temporal</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointID"/>
@@ -2417,9 +2481,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">004</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#ROIname"/>
+        <NamedIndividual IRI="#africa"/>
+        <Literal>africa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#MovementTypeDescription"/>
         <NamedIndividual IRI="#africatrip"/>
         <Literal>guided tours</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#MovementTypeName"/>
+        <NamedIndividual IRI="#africatrip"/>
+        <Literal>Constrained</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TrajectoryTypeName"/>
+        <NamedIndividual IRI="#africatrip"/>
+        <Literal>spatio-temporal</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectorySectionID"/>
@@ -2447,6 +2526,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#ROIname"/>
+        <NamedIndividual IRI="#canada"/>
+        <Literal>canada</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointID"/>
         <NamedIndividual IRI="#casablanca"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">11</Literal>
@@ -2467,9 +2551,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">8</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#ROIname"/>
+        <NamedIndividual IRI="#italy"/>
+        <Literal>italy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#MovementTypeDescription"/>
         <NamedIndividual IRI="#italytrip"/>
         <Literal>guided tours</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#MovementTypeName"/>
+        <NamedIndividual IRI="#italytrip"/>
+        <Literal>Constrained</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TrajectoryTypeName"/>
+        <NamedIndividual IRI="#italytrip"/>
+        <Literal>spatio-temporal</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#RegionID"/>
@@ -2482,9 +2581,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">9</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#ROIname"/>
+        <NamedIndividual IRI="#korea"/>
+        <Literal>korea</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#MovementTypeDescription"/>
         <NamedIndividual IRI="#koreatrip"/>
         <Literal>guided tours</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#MovementTypeName"/>
+        <NamedIndividual IRI="#koreatrip"/>
+        <Literal>Constrained</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TrajectoryTypeName"/>
+        <NamedIndividual IRI="#koreatrip"/>
+        <Literal>spatio-temporal</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#RegionID"/>
@@ -2497,9 +2611,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">10</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#ROIname"/>
+        <NamedIndividual IRI="#london"/>
+        <Literal>london</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#MovementTypeDescription"/>
         <NamedIndividual IRI="#londontrip"/>
         <Literal>guided tours</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TrajectoryTypeName"/>
+        <NamedIndividual IRI="#londontrip"/>
+        <Literal>Constrained</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TrajectoryTypeName"/>
+        <NamedIndividual IRI="#londontrip"/>
+        <Literal>spatio-temporal</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#PointID"/>
@@ -2662,9 +2791,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">009</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#ROIname"/>
+        <NamedIndividual IRI="#unitedstates"/>
+        <Literal>unitedstates</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#MovementTypeDescription"/>
         <NamedIndividual IRI="#unitedstatestrip"/>
         <Literal>guided tours</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#MovementTypeName"/>
+        <NamedIndividual IRI="#unitedstatestrip"/>
+        <Literal>Constrained</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TrajectoryTypeName"/>
+        <NamedIndividual IRI="#unitedstatestrip"/>
+        <Literal>spatio-temporal</Literal>
     </DataPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
@@ -2755,12 +2899,24 @@
         <Class IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movementTypeOntology"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#MovementTypeName"/>
+        <Class IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movementTypeOntology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#MovingObjectID"/>
         <Class IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#MovingObject"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#MovingObjectName"/>
         <Class IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#MovingObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ROIname"/>
+        <Class IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#regionOfInterest"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TrajectoryTypeName"/>
+        <Class IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectoryTypeOntology"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#trajectoryTypeDescription"/>
@@ -2791,11 +2947,23 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#MovementTypeName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#MovingObjectID"/>
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#MovingObjectName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ROIname"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#TrajectoryTypeName"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
