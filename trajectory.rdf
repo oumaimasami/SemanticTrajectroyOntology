@@ -1435,11 +1435,11 @@
         <NamedIndividual IRI="#montana"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#MovingObject"/>
+        <Class IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingObjectOntology"/>
         <NamedIndividual IRI="#movingpoint"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#MovingObject"/>
+        <Class IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingObjectOntology"/>
         <NamedIndividual IRI="#movingregion"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4032,7 +4032,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasMovingObjectType"/>
-        <Class IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#MovingObject"/>
+        <Class IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingObjectOntology"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasTrajectorySection"/>
