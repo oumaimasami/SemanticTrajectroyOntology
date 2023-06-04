@@ -1722,6 +1722,11 @@
         <NamedIndividual IRI="#expanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#ArcticTern"/>
+        <NamedIndividual IRI="#movingregion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
         <NamedIndividual IRI="#ArcticTern2"/>
         <NamedIndividual IRI="#Unconstrained"/>
@@ -1755,6 +1760,11 @@
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasbehavior"/>
         <NamedIndividual IRI="#ArcticTern2"/>
         <NamedIndividual IRI="#merging"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#ArcticTern2"/>
+        <NamedIndividual IRI="#movingregion"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
@@ -1792,6 +1802,11 @@
         <NamedIndividual IRI="#splitting"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#ArcticTern3"/>
+        <NamedIndividual IRI="#movingregion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
         <NamedIndividual IRI="#ArcticTern4"/>
         <NamedIndividual IRI="#Unconstrained"/>
@@ -1820,6 +1835,11 @@
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasbehavior"/>
         <NamedIndividual IRI="#ArcticTern4"/>
         <NamedIndividual IRI="#splitting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#ArcticTern4"/>
+        <NamedIndividual IRI="#movingregion"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
@@ -1855,6 +1875,11 @@
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasbehavior"/>
         <NamedIndividual IRI="#ArcticTern5"/>
         <NamedIndividual IRI="#merging"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#ArcticTern5"/>
+        <NamedIndividual IRI="#movingregion"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
@@ -1897,6 +1922,11 @@
         <NamedIndividual IRI="#merging"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#ArcticWarbler"/>
+        <NamedIndividual IRI="#movingregion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
         <NamedIndividual IRI="#ArcticWarbler2"/>
         <NamedIndividual IRI="#Unconstrained"/>
@@ -1937,6 +1967,11 @@
         <NamedIndividual IRI="#merging"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#ArcticWarbler2"/>
+        <NamedIndividual IRI="#movingregion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
         <NamedIndividual IRI="#ArcticWarbler3"/>
         <NamedIndividual IRI="#Unconstrained"/>
@@ -1975,6 +2010,11 @@
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasbehavior"/>
         <NamedIndividual IRI="#ArcticWarbler3"/>
         <NamedIndividual IRI="#splitting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#ArcticWarbler3"/>
+        <NamedIndividual IRI="#movingregion"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
@@ -2020,6 +2060,11 @@
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasbehavior"/>
         <NamedIndividual IRI="#BarnSwallows"/>
         <NamedIndividual IRI="#expanding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#BarnSwallows"/>
+        <NamedIndividual IRI="#movingregion"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
@@ -2072,6 +2117,11 @@
         <NamedIndividual IRI="#splitting"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#BarnSwallows2"/>
+        <NamedIndividual IRI="#movingregion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
         <NamedIndividual IRI="#BarnSwallows3"/>
         <NamedIndividual IRI="#Unconstrained"/>
@@ -2110,6 +2160,11 @@
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasbehavior"/>
         <NamedIndividual IRI="#BarnSwallows3"/>
         <NamedIndividual IRI="#overlapping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#BarnSwallows3"/>
+        <NamedIndividual IRI="#movingregion"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
@@ -2162,6 +2217,11 @@
         <NamedIndividual IRI="#expanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#BartailedGodwit"/>
+        <NamedIndividual IRI="#movingregion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
         <NamedIndividual IRI="#BartailedGodwit3"/>
         <NamedIndividual IRI="#Unconstrained"/>
@@ -2207,6 +2267,11 @@
         <NamedIndividual IRI="#overlapping"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#BartailedGodwit3"/>
+        <NamedIndividual IRI="#movingregion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
         <NamedIndividual IRI="#BartialedGodwit4"/>
         <NamedIndividual IRI="#Unconstrained"/>
@@ -2240,6 +2305,11 @@
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasbehavior"/>
         <NamedIndividual IRI="#BartialedGodwit4"/>
         <NamedIndividual IRI="#splitting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#BartialedGodwit4"/>
+        <NamedIndividual IRI="#movingregion"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasPointOfInterest"/>
@@ -2352,6 +2422,11 @@
         <NamedIndividual IRI="#expanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#EuropeanRobin"/>
+        <NamedIndividual IRI="#movingregion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
         <NamedIndividual IRI="#EuropeanRobin2"/>
         <NamedIndividual IRI="#Unconstrained"/>
@@ -2390,6 +2465,11 @@
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasbehavior"/>
         <NamedIndividual IRI="#EuropeanRobin2"/>
         <NamedIndividual IRI="#merging"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#EuropeanRobin2"/>
+        <NamedIndividual IRI="#movingregion"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
@@ -2435,6 +2515,11 @@
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasbehavior"/>
         <NamedIndividual IRI="#EuropeanRobin3"/>
         <NamedIndividual IRI="#overlapping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#EuropeanRobin3"/>
+        <NamedIndividual IRI="#movingregion"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasTrajectory"/>
@@ -2537,6 +2622,11 @@
         <NamedIndividual IRI="#splitting"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#RubyThroatedHummingbird3"/>
+        <NamedIndividual IRI="#movingregion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
         <NamedIndividual IRI="#RubythroatedHummingbird"/>
         <NamedIndividual IRI="#Unconstrained"/>
@@ -2570,6 +2660,11 @@
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasbehavior"/>
         <NamedIndividual IRI="#RubythroatedHummingbird"/>
         <NamedIndividual IRI="#merging"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#RubythroatedHummingbird"/>
+        <NamedIndividual IRI="#movingregion"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
@@ -2615,6 +2710,11 @@
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasbehavior"/>
         <NamedIndividual IRI="#RubythroatedHummingbird2"/>
         <NamedIndividual IRI="#merging"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#RubythroatedHummingbird2"/>
+        <NamedIndividual IRI="#movingregion"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasPointOfInterest"/>
@@ -2912,6 +3012,11 @@
         <NamedIndividual IRI="#expanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#SandhillCrane"/>
+        <NamedIndividual IRI="#movingregion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
         <NamedIndividual IRI="#SandhillCrane2"/>
         <NamedIndividual IRI="#Unconstrained"/>
@@ -2952,6 +3057,11 @@
         <NamedIndividual IRI="#expanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#SandhillCrane2"/>
+        <NamedIndividual IRI="#movingregion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasMovementType"/>
         <NamedIndividual IRI="#SandhillCrane3"/>
         <NamedIndividual IRI="#Unconstrained"/>
@@ -2985,6 +3095,11 @@
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasbehavior"/>
         <NamedIndividual IRI="#SandhillCrane3"/>
         <NamedIndividual IRI="#merging"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#SandhillCrane3"/>
+        <NamedIndividual IRI="#movingregion"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasPointOfInterest"/>
@@ -3070,6 +3185,11 @@
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasbehavior"/>
         <NamedIndividual IRI="#bartailedGodwit2"/>
         <NamedIndividual IRI="#overlapping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <NamedIndividual IRI="#bartailedGodwit2"/>
+        <NamedIndividual IRI="#movingregion"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasPointOfInterest"/>
