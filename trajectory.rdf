@@ -162,7 +162,7 @@
         <ObjectProperty IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#hasbehavior"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasTrajectorySection"/>
@@ -1722,7 +1722,7 @@
         <NamedIndividual IRI="#expanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#ArcticTern"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -1762,7 +1762,7 @@
         <NamedIndividual IRI="#merging"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#ArcticTern2"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -1802,7 +1802,7 @@
         <NamedIndividual IRI="#splitting"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#ArcticTern3"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -1837,7 +1837,7 @@
         <NamedIndividual IRI="#splitting"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#ArcticTern4"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -1877,7 +1877,7 @@
         <NamedIndividual IRI="#merging"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#ArcticTern5"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -1922,7 +1922,7 @@
         <NamedIndividual IRI="#merging"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#ArcticWarbler"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -1967,7 +1967,7 @@
         <NamedIndividual IRI="#merging"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#ArcticWarbler2"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -2012,7 +2012,7 @@
         <NamedIndividual IRI="#splitting"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#ArcticWarbler3"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -2062,7 +2062,7 @@
         <NamedIndividual IRI="#expanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#BarnSwallows"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -2117,7 +2117,7 @@
         <NamedIndividual IRI="#splitting"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#BarnSwallows2"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -2162,7 +2162,7 @@
         <NamedIndividual IRI="#overlapping"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#BarnSwallows3"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -2217,7 +2217,7 @@
         <NamedIndividual IRI="#expanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#BartailedGodwit"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -2267,7 +2267,7 @@
         <NamedIndividual IRI="#overlapping"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#BartailedGodwit3"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -2307,7 +2307,7 @@
         <NamedIndividual IRI="#splitting"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#BartialedGodwit4"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -2422,7 +2422,7 @@
         <NamedIndividual IRI="#expanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#EuropeanRobin"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -2467,7 +2467,7 @@
         <NamedIndividual IRI="#merging"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#EuropeanRobin2"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -2517,7 +2517,7 @@
         <NamedIndividual IRI="#overlapping"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#EuropeanRobin3"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -2622,7 +2622,7 @@
         <NamedIndividual IRI="#splitting"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#RubyThroatedHummingbird3"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -2662,7 +2662,7 @@
         <NamedIndividual IRI="#merging"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#RubythroatedHummingbird"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -2712,7 +2712,7 @@
         <NamedIndividual IRI="#merging"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#RubythroatedHummingbird2"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -3012,7 +3012,7 @@
         <NamedIndividual IRI="#expanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#SandhillCrane"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -3057,7 +3057,7 @@
         <NamedIndividual IRI="#expanding"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#SandhillCrane2"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -3097,7 +3097,7 @@
         <NamedIndividual IRI="#merging"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#SandhillCrane3"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -3187,7 +3187,7 @@
         <NamedIndividual IRI="#overlapping"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <NamedIndividual IRI="#bartailedGodwit2"/>
         <NamedIndividual IRI="#MovingRegion"/>
     </ObjectPropertyAssertion>
@@ -3995,7 +3995,7 @@
         <Class IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <Class IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -4031,7 +4031,7 @@
         <Class IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#behavior"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasMovingObjectType"/>
+        <ObjectProperty IRI="#hasMOT"/>
         <Class IRI="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingObjectOntology"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
