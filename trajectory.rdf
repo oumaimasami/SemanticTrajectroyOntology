@@ -93,7 +93,7 @@
 
     <ObjectProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#hasMOT">
         <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
-        <rdfs:range rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#migratingBirds"/>
+        <rdfs:range rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingObjectOntology"/>
     </ObjectProperty>
     
 
@@ -256,9 +256,7 @@
 
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#MovingObject -->
 
-    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#MovingObject">
-        <rdfs:subClassOf rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingObjectOntology"/>
-    </Class>
+    <Class rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#MovingObject"/>
     
 
 
@@ -1172,7 +1170,7 @@
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#MovingPoint -->
 
     <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#MovingPoint">
-        <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#migratingBirds"/>
+        <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingObjectOntology"/>
     </NamedIndividual>
     
 
@@ -1180,7 +1178,7 @@
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#MovingRegion -->
 
     <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#MovingRegion">
-        <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#migratingBirds"/>
+        <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingObjectOntology"/>
     </NamedIndividual>
     
 
