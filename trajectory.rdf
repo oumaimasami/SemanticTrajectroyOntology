@@ -234,6 +234,30 @@
     
 
 
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#eventgoalid -->
+
+    <DatatypeProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#eventgoalid">
+        <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#EventGoalName"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#eventitemid -->
+
+    <DatatypeProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#eventitemid">
+        <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#EventItemName"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#seasonId -->
+
+    <DatatypeProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#seasonId">
+        <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#calendarSeason"/>
+    </DatatypeProperty>
+    
+
+
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#trajectoryTypeDescription -->
 
     <DatatypeProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#trajectoryTypeDescription">
@@ -853,6 +877,7 @@
 
     <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Exhibition">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#EventItemName"/>
+        <trajectory1:eventitemid rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</trajectory1:eventitemid>
     </NamedIndividual>
     
 
@@ -1374,6 +1399,7 @@
 
     <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#carnival">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#EventItemName"/>
+        <trajectory1:eventitemid rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</trajectory1:eventitemid>
     </NamedIndividual>
     
 
@@ -1392,6 +1418,7 @@
 
     <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#festival">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#EventItemName"/>
+        <trajectory1:eventitemid rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</trajectory1:eventitemid>
     </NamedIndividual>
     
 
@@ -1400,6 +1427,7 @@
 
     <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#for_culture">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#EventGoalName"/>
+        <trajectory1:eventgoalid rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</trajectory1:eventgoalid>
     </NamedIndividual>
     
 
@@ -1408,6 +1436,7 @@
 
     <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#for_fun">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#EventGoalName"/>
+        <trajectory1:eventgoalid rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</trajectory1:eventgoalid>
     </NamedIndividual>
     
 
@@ -1638,6 +1667,7 @@
 
     <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#summer">
         <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#calendarSeason"/>
+        <trajectory1:seasonId rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</trajectory1:seasonId>
     </NamedIndividual>
     
 
