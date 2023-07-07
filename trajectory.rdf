@@ -1802,6 +1802,16 @@
     
 
 
+    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tourist26 -->
+
+    <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tourist26">
+        <rdf:type rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingPoint"/>
+        <trajectory:hasTrajectory rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#Canadatrip"/>
+        <trajectory1:MovingObjectID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26</trajectory1:MovingObjectID>
+    </NamedIndividual>
+    
+
+
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tourist4 -->
 
     <NamedIndividual rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#tourist4">
