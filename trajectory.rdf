@@ -115,24 +115,6 @@
     
 
 
-    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#eventItemGoal -->
-
-    <ObjectProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#eventItemGoal">
-        <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingObjectOntology"/>
-        <rdfs:range rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
-    </ObjectProperty>
-    
-
-
-    <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#eventItemName -->
-
-    <ObjectProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#eventItemName">
-        <rdfs:domain rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#movingObjectOntology"/>
-        <rdfs:range rdf:resource="https://github.com/oumaimasami/SemanticTrajectroyOntology/blob/main/trajectory.owl#trajectory"/>
-    </ObjectProperty>
-    
-
-
     <!-- https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#hasTrajectorySection -->
 
     <ObjectProperty rdf:about="https://github.com/oumaimasami/SemanticTrajectroyOntology/trajectory#hasTrajectorySection">
